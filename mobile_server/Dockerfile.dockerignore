@@ -1,0 +1,15 @@
+# Docker applies this file when -f mobile_server/Dockerfile is used.
+**
+!factory/
+!factory/**
+!vendor/
+!vendor/**
+!resources/
+!resources/formula/
+!resources/formula/**
+!mobile_server/
+!mobile_server/**
+**/__pycache__
+**/.pytest_cache
+mobile_server/.work
+mobile_server/tests

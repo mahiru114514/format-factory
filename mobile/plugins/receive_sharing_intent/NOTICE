@@ -1,0 +1,7 @@
+receive_sharing_intent
+Copyright Kasem Jaffer and upstream contributors.
+Upstream package: receive_sharing_intent 1.8.1, Apache License 2.0.
+
+Modified Android integration and private share-cache helpers for Format Factory,
+2026-10-18. See FORMAT_FACTORY_PATCH.md for the local modifications.
+Original upstream license and author attribution remain in this distribution.

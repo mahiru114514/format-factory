@@ -1,0 +1,7 @@
+# For tools that inspect this service directory. The repository-root build uses
+# Dockerfile.dockerignore next to the Dockerfile.
+.work
+tests
+__pycache__
+*.pyc
+.pytest_cache

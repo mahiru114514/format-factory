@@ -1,0 +1,53 @@
+name: format_factory_mobile
+description: 本机优先的格式转换与文本校对工具
+publish_to: none
+version: 0.1.2+3
+environment:
+  sdk: ^3.13.5
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  file_picker: ^13.1.0
+  image_picker: ^1.2.4
+  share_plus: ^13.3.1
+  path_provider: ^2.1.6
+  shared_preferences: ^2.5.6
+  csv: ^6.0.0
+  excel: ^4.0.6
+  image: '>=4.2.0 <5.0.0'
+  pdf: '>=3.11.0 <4.0.0'
+  archive: '>=3.6.1 <5.0.0'
+  xml: '>=6.5.0 <8.0.0'
+  http: ^1.6.0
+  crypto: ^3.0.7
+  path: ^1.9.1
+  enough_convert: ^1.7.1
+  flutter_image_compress: ^2.5.1
+  google_mlkit_text_recognition: ^0.17.1
+  pdfx: ^2.11.0
+  image_cropper: ^13.0.0
+  gal: ^2.3.3
+  receive_sharing_intent: 1.8.1
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+dependency_overrides:
+  receive_sharing_intent:
+    path: plugins/receive_sharing_intent
+flutter:
+  config:
+    enable-swift-package-manager: false
+  uses-material-design: true
+  fonts:
+    - family: NotoSansSC
+      fonts:
+        - asset: assets/NotoSansSC.ttf
+  assets:
+    - assets/appmark.png
+    - assets/NotoSansSC.ttf
+    - assets/NotoSansSC-OFL.txt

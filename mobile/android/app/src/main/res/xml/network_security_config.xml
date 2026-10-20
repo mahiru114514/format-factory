@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Numeric LAN HTTP is validated by the Dart client. Public endpoints
+         require HTTPS; the platform must allow the explicit LAN test route. -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors><certificates src="system"/></trust-anchors>
+    </base-config>
+</network-security-config>
